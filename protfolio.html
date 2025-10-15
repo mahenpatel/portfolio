@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BoAt Wireless Headphones Sale 2025 — Social Branding DG</title>
+<link rel="stylesheet" href="index.css">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Wave / particles canvas -->
+  <canvas id="waveCanvas" class="wave-canvas" aria-hidden="true"></canvas>
+
+  <!-- Audio element (optional) -->
+  <audio id="bgAudio" loop crossorigin="anonymous">
+    <!-- <source src="your-music.mp3" type="audio/mpeg"> -->
+  </audio>
+  <div class="audio-toggle" id="audioToggle" title="Toggle background music">
+    <i id="audioIcon" class="fa-solid fa-volume-xmark" style="color:var(--soft-white)"></i>
+  </div>
+
+  <!-- NAV -->
+  <nav class="site-nav navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <i class="fa-solid fa-headphones-simple" style="color:var(--boat-red); font-size:24px"></i>
+        <span style="color:var(--soft-white);"><img src="8a8af63f-1cb5-43c7-b218-60422f274ceb.jfif" alt="" height="50px" width="80px"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">🏠 Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#headphones">🎧 Headphones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#offers">💥 Offers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">📞 Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main class="container" id="home" style="position:relative; z-index:5; padding-top:28px;">
+    <section class="hero">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h1 class="reveal">🔥 BoAt Wireless Headphones Sale 2025 — Up to <span style="color:var(--boat-red)">50% OFF</span> 🔥</h1>
+          <p class="lead reveal">Experience the power of pure sound and deep bass. Premium build, stunning design — built for music lovers.</p>
+
+          <div class="d-flex gap-2 align-items-center reveal" style="flex-wrap:wrap;">
+            <button class="cta-boat" id="shopNow">Shop Now</button>
+            <button class="btn btn-outline-light cta-outline" onclick="document.getElementById('headphones').scrollIntoView({behavior:'smooth'})">Browse Headphones</button>
+            <div style="margin-left:12px;" class="countdown" id="countdownWrap">
+              <div class="box"><small>Days</small><div id="cdDays">00</div></div>
+              <div class="box"><small>Hrs</small><div id="cdHours">00</div></div>
+              <div class="box"><small>Min</small><div id="cdMins">00</div></div>
+              <div class="box"><small>Sec</small><div id="cdSecs">00</div></div>
+            </div>
+          </div>
+
+          <div style="margin-top:20px;" class="offer-marquee reveal">
+            <div class="marquee">🎧 Big Sale on BoAt Wireless Headphones — Flat 50% OFF — Limited Time Only 🎧 &nbsp;&nbsp; • &nbsp;&nbsp; Grab the deal now!</div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="hero-device">
+            <!-- example placeholder headphone image (swap with real product images) -->
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=60" alt="Headphone"/>
+          </div>
+          <div style="margin-top:14px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <div style="font-weight:800;">BoAt Rockerz 450</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.7)">Wireless, Deep Bass</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-weight:900; color:var(--boat-red);">₹2,499</div>
+              <div style="font-size:12px; color:rgba(255,255,255,0.65)">50% OFF</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- HEADPHONES -->
+  <section id="headphones" class="container products mt-3 mb-4" style="position:relative; z-index:5;">
+    <h2 class="text-center" style="font-weight:900; color:var(--soft-white);">Popular Headphones</h2>
+    <p class="text-center" style="color:rgba(255,255,255,0.6); margin-bottom:18px;">6 best picks — hover to see the red glow effect.</p>
+
+    <div class="row g-3">
+      <!-- We'll put 6 product cards. Replace image links with real BoAt images if available -->
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1606813902943-96b2f6e5b9d2?auto=format&fit=crop&w=800&q=60" alt="product-1">
+          </div>
+          <h6 style="margin-top:10px;">BoAt Rockerz 550</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">Wireless / 20H Playtime</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹1,999</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1580894908361-5b04c6c6c9ec?auto=format&fit=crop&w=800&q=60" alt="product-2">
+          </div>
+          <h6 style="margin-top:10px;">BoAt BassHeads 900</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">Bass-Heavy / Wired</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹999</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=60" alt="product-3">
+          </div>
+          <h6 style="margin-top:10px;">BoAt Airdopes Pro</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">True Wireless / ANC</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹3,499</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1596461404969-1b1b7b2b3f9a?auto=format&fit=crop&w=800&q=60" alt="product-4">
+          </div>
+          <h6 style="margin-top:10px;">BoAt Rockerz 510</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">Lightweight / EQ Presets</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹1,299</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?auto=format&fit=crop&w=800&q=60" alt="product-5">
+          </div>
+          <h6 style="margin-top:10px;">BoAt NEOPods</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">Compact / Powerful</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹1,799</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="product-card reveal">
+          <div class="product-thumb">
+            <img src="https://images.unsplash.com/photo-1541661538392-7fe0c1b9a9f7?auto=format&fit=crop&w=800&q=60" alt="product-6">
+          </div>
+          <h6 style="margin-top:10px;">BoAt Immortal 100</h6>
+          <div style="color:rgba(255,255,255,0.7); font-size:13px;">Gaming / Low Latency</div>
+          <div class="d-flex justify-content-between align-items-center mt-2">
+            <strong style="color:var(--boat-red);">₹2,299</strong>
+            <button class="btn btn-sm btn-outline-light" onclick="scrollToOffers()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OFFERS -->
+  <section id="offers" class="container mt-2 mb-4" style="position:relative; z-index:5;">
+    <h2 class="text-center" style="font-weight:900; color:var(--soft-white);">Offers</h2>
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-8">
+        <div class="offer-marquee" style="margin-bottom:14px;">
+          <div class="marquee">🎧 Big Sale on BoAt Wireless Headphones — Flat 50% OFF — Limited Time Only 🎧</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="product-card reveal p-3">
+          <div style="display:flex; gap:12px; align-items:center;">
+            <i class="fa-solid fa-fire" style="font-size:28px; color:var(--boat-red)"></i>
+            <div>
+              <div style="font-weight:800;">Best Seller</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.7)">Top-rated pick with heavy bass</div>
+            </div>
+          </div>
+          <div class="mt-3 d-flex justify-content-between align-items-center">
+            <strong style="color:var(--boat-red);">₹1,999</strong>
+            <button class="btn btn-sm btn-outline-light">Shop</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card reveal p-3">
+          <div style="display:flex; gap:12px; align-items:center;">
+            <i class="fa-solid fa-star" style="font-size:28px; color:var(--boat-red)"></i>
+            <div>
+              <div style="font-weight:800;">New Launch</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.7)">Latest model with ANC</div>
+            </div>
+          </div>
+          <div class="mt-3 d-flex justify-content-between align-items-center">
+            <strong style="color:var(--boat-red);">₹3,499</strong>
+            <button class="btn btn-sm btn-outline-light">Shop</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card reveal p-3">
+          <div style="display:flex; gap:12px; align-items:center;">
+            <i class="fa-solid fa-gem" style="font-size:28px; color:var(--boat-red)"></i>
+            <div>
+              <div style="font-weight:800;">Limited Edition</div>
+              <div style="font-size:13px; color:rgba(255,255,255,0.7)">Collector's edition with glossy finish</div>
+            </div>
+          </div>
+          <div class="mt-3 d-flex justify-content-between align-items-center">
+            <strong style="color:var(--boat-red);">₹4,999</strong>
+            <button class="btn btn-sm btn-outline-light">Shop</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container mt-4 mb-5" style="position:relative; z-index:5;">
+    <h2 class="text-center" style="font-weight:900; color:var(--soft-white);">Contact Us</h2>
+    <div class="row justify-content-center mt-3">
+      <div class="col-lg-6">
+        <div class="contact-card reveal">
+          <form id="contactForm" onsubmit="submitContact(event)">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input required class="form-control" id="cname" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input required class="form-control" id="cemail" type="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea required class="form-control" id="cmsg" rows="4" placeholder="How can we help?"></textarea>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="text-muted small" style="color:rgba(255,255,255,0.6)">We'll respond within 24 hours.</div>
+              <button class="btn-send" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container text-center">
+      <div class="footer-line"></div>
+      <div style="margin-top:8px; color:rgba(255,255,255,0.7); font-weight:600;">© 2025 Social Branding DG | BoAt Wireless Headphones Sale | All Rights Reserved</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('.nav-link').forEach(a=>{
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        const target = this.getAttribute('href');
+        if(!target || target === '#') return;
+        const el = document.querySelector(target);
+        if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+
+    // shop now
+    document.getElementById('shopNow').addEventListener('click', ()=> document.getElementById('offers').scrollIntoView({behavior:'smooth'}));
+    function scrollToOffers(){ document.getElementById('offers').scrollIntoView({behavior:'smooth'}); }
+
+    // Navbar color on scroll
+    const nav = document.querySelector('.site-nav');
+    window.addEventListener('scroll', ()=>{
+      if(window.scrollY > 40) nav.classList.add('scrolled'); else nav.classList.remove('scrolled');
+    });
+
+    // reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver((entries)=>{
+      entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('visible'); } });
+    }, {threshold:0.12});
+    reveals.forEach(r=>obs.observe(r));
+
+    // Audio toggle (no source by default)
+    const bgAudio = document.getElementById('bgAudio');
+    const audioToggle = document.getElementById('audioToggle');
+    const audioIcon = document.getElementById('audioIcon');
+    let audioOn = false;
+    audioToggle.addEventListener('click', ()=>{
+      if(!bgAudio.querySelector('source') && !bgAudio.src){ audioOn = !audioOn; audioIcon.className = audioOn ? 'fa-solid fa-volume-high' : 'fa-solid fa-volume-xmark'; alert('No audio source found. Add an audio source inside the <audio> element.'); return; }
+      if(audioOn){ bgAudio.pause(); audioOn=false; audioIcon.className='fa-solid fa-volume-xmark'; } else { bgAudio.play().catch(()=>{}); audioOn=true; audioIcon.className='fa-solid fa-volume-high'; }
+    });
+
+    // Contact submit (demo)
+    function submitContact(e){ e.preventDefault(); const name=document.getElementById('cname').value.trim(); const email=document.getElementById('cemail').value.trim(); const msg=document.getElementById('cmsg').value.trim(); if(!name||!email||!msg){ alert('Please fill all fields'); return; } alert('Thanks '+name+'! We received your message.'); e.target.reset(); }
+
+    // Countdown (set sale end date here)
+    (function(){
+      // Sale ends on Dec 1, 2025 23:59:59 IST (adjust as needed)
+      const end = new Date('2025-12-01T18:29:59Z'); // UTC time equivalent for IST 23:59:59
+      function update(){
+        const now = new Date();
+        let diff = Math.max(0, end - now);
+        const days = Math.floor(diff / (1000*60*60*24)); diff -= days*(1000*60*60*24);
+        const hrs = Math.floor(diff / (1000*60*60)); diff -= hrs*(1000*60*60);
+        const mins = Math.floor(diff / (1000*60)); diff -= mins*(1000*60);
+        const secs = Math.floor(diff/1000);
+        document.getElementById('cdDays').textContent = String(days).padStart(2,'0');
+        document.getElementById('cdHours').textContent = String(hrs).padStart(2,'0');
+        document.getElementById('cdMins').textContent = String(mins).padStart(2,'0');
+        document.getElementById('cdSecs').textContent = String(secs).padStart(2,'0');
+      }
+      update(); setInterval(update,1000);
+    })();
+
+    // Simple waveform background (canvas)
+    (function(){
+      const canvas = document.getElementById('waveCanvas');
+      const ctx = canvas.getContext('2d');
+      let w = canvas.width = window.innerWidth; let h = canvas.height = window.innerHeight;
+      window.addEventListener('resize', ()=>{ w=canvas.width=window.innerWidth; h=canvas.height=window.innerHeight; });
+
+      const lines = Array.from({length:5}, (_,i)=>({y:h*0.25 + i*40 + (i%2?20:0), amp:40 + i*8, speed:0.002+ i*0.0012, phase:Math.random()*Math.PI*2}));
+
+      function draw(){
+        ctx.clearRect(0,0,w,h);
+        lines.forEach((ln,idx)=>{
+          ctx.beginPath();
+          ctx.moveTo(0, ln.y);
+          for(let x=0;x<w;x+=10){
+            const y = ln.y + Math.sin((x * 0.008) + ln.phase + performance.now()*ln.speed) * ln.amp * (1 - idx*0.08);
+            ctx.lineTo(x, y);
+          }
+          ctx.strokeStyle = 'rgba(229,9,20,' + (0.08 - idx*0.01) + ')';
+          ctx.lineWidth = 2 + (1-idx*0.14);
+          ctx.stroke();
+        });
+        requestAnimationFrame(draw);
+      }
+      draw();
+    })();
+
+  </script>
+</body>
+</html>
